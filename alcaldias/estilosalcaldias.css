@@ -1,0 +1,49 @@
+/*En  la siguiente seccion son los estilos para la seccion Alvaro Obregon*/
+
+body.AO{
+	background:  #E0F2FF;
+}
+
+img.AO{
+	float: top;
+	padding: center;
+}
+section.AO{
+	float: left;
+	width: 30%;
+	border: 12px outset #31B0F3;
+	padding-left: 2%;
+	padding-right: 2%;
+	
+	margin: 5%;
+	border-right: 6%;
+	background: linear-gradient(45deg,#FFF5E3,#DAEAF1,#BFE1F3,#DAF1EF,#FFF5E3);
+}
+
+h1.AO{
+	font-size: 45px;
+	color: #0062A9;
+	background: linear-gradient(45deg,#92C6EE,#7FB3D5,#E0FFFF,#92C6EE,#7FB3D5);
+}
+
+p.AOO{
+	font-family: Arial,Verdana;
+	font-size: 25px;
+}
+
+p.AO{
+	font-size: 18px;
+	font-family: Verdana,Arial;
+	font-style: bold;
+}
+
+section.AOA{
+
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+
+
+/*En  la siguiente seccion son los estilos para la seccion BenitoJ*/

@@ -1,0 +1,91 @@
+/*En esta seccion es para dar estilos a Banner*/
+
+body.Banner{
+	
+	background: #1780A1;
+}
+
+h1.Banner{
+	background: linear-gradient(#A01A58,#892B64,#723C70,#5C4D7D,#455E89,#2E6F95,#0091AD,#0091AD);
+	text-align: center;
+	font-size: 39px;
+	font-family: verdana,Arial;
+	font-style: bold;
+	color: #FFFFFF;
+}
+
+a.Banner{
+	color: #D3D3D3 ;
+}
+
+a.Banner:link{
+		color: #FFFFFF;
+		text-decoration-style: solid;
+		text-decoration-line: none;
+		text-decoration-color: white;
+		background: linear-gradient(#A01A58,#892B64,#723C70,#5C4D7D,#455E89,#2E6F95,#0091AD,#0091AD); 
+		
+}
+a.Banner:hover{
+
+		color: black;
+		text-decoration-style: solid;
+		text-decoration-line: underline overline;
+		text-decoration-color: #73DBED;
+		background: #FFFFFF;  
+}
+
+/*En  la siguiente seccion son los estilos para la seccion Menu*/
+
+
+body.Menu{
+	background: #1780A1;
+	text-align: center;
+}
+
+h1.Menu{
+
+	background: linear-gradient(#3CA5FD,#73DBED);	
+}
+
+p.Menu{
+	font-size: 25px;
+	font-family: Verdana,Arial;
+	background: linear-gradient(#3CA5FD,#73DBED);
+}
+
+a.Menu:link{
+
+	color: black;
+	background-color: #3CA5FD; 
+	text-decoration-line: none;
+
+}
+
+a.Menu:hover{
+
+	color: black;
+	text-decoration-style: solid;
+	text-decoration-line: underline overline;
+	text-decoration-color: #73DBED;
+	background: #FFFFFF;   
+
+}
+
+/*En  la siguiente seccion son los estilos para la seccion museosCDMX */
+body.mapamuseos{
+
+	background: linear-gradient(45deg,#3CA5FD,#73DBED);
+
+}
+
+map{
+	background: linear-gradient(45deg,#3CA5FD,#73DBED);
+}
+
+
+/*En  la siguiente seccion son los estilos para la seccion Alvaro Obregon*/
+
+body.AO{
+	background:  #E0F2FF;
+}
