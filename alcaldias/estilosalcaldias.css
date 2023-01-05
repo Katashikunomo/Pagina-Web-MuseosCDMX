@@ -1,48 +1,62 @@
 /*En  la siguiente seccion son los estilos para la seccion Alvaro Obregon*/
 
-body.AO{
+.AO{
 	background:  #E0F2FF;
 }
 
-img.AO{
+.AO img{
 	float: top;
 	padding: center;
 }
 section.AO{
 	float: left;
-	width: 30%;
+	width: 70%;
 	border: 12px outset #31B0F3;
 	padding-left: 2%;
 	padding-right: 2%;
-	
 	margin: 5%;
 	border-right: 6%;
 	background: linear-gradient(45deg,#FFF5E3,#DAEAF1,#BFE1F3,#DAF1EF,#FFF5E3);
 }
 
-h1.AO{
+h1{
+	text-align: center;
+	margin: auto;
 	font-size: 45px;
+	background: linear-gradient(55deg,#92C6EE,#7FB3D5,#E0FFFF,#92C6EE,#7FB3D5);
 	color: #0062A9;
-	background: linear-gradient(45deg,#92C6EE,#7FB3D5,#E0FFFF,#92C6EE,#7FB3D5);
+	text-shadow: 0px 0px 8px gray;
+	box-shadow: 1px 5px 4px black;
+	border-radius: 2px;
+	width: 90%;
 }
 
 p.AOO{
 	font-family: Arial,Verdana;
-	font-size: 25px;
+	font-size: 17px;
+	text-align: center;
 }
 
-p.AO{
+.mein-principal{
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+
+}
+
+img{
+	width: 80%;
+	max-width: 500px;
+}
+
+
+.AO p{
 	font-size: 18px;
 	font-family: Verdana,Arial;
 	font-style: bold;
+	text-align: center;
 }
 
-section.AOA{
-
-	padding-top: 5%;
-	padding-bottom: 5%;
-
-}
 
 
 

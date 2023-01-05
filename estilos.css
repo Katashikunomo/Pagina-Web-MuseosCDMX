@@ -1,75 +1,88 @@
 /*En esta seccion es para dar estilos a Banner*/
 
-body.Banner{
-	
+
+body{
 	background: #1780A1;
+	margin: 0;
+	padding: 0;
 }
 
-h1.Banner{
-	background: linear-gradient(#A01A58,#892B64,#723C70,#5C4D7D,#455E89,#2E6F95,#0091AD,#0091AD);
+div {
 	text-align: center;
-	font-size: 39px;
+	border-radius: 12px;
+	box-shadow: 1px 3px 15px black;
+	border-left: 5px transparent;
 	font-family: verdana,Arial;
 	font-style: bold;
 	color: #FFFFFF;
+	text-shadow: 1px 2px 12px black;
+	margin: auto;
+	width: 70%;
+	height: 50px;
+	background: linear-gradient(#A01A58,#892B64,#723C70,#5C4D7D,#455E89,#2E6F95,#0091AD,#0091AD);
+	box-shadow: 1px 5px 12px black;
 }
 
-a.Banner{
+.Banner a{
+	font-size: 22px;
+	margin: auto;
+	margin-top: 5px;
 	color: #D3D3D3 ;
+	border-bottom: 8px solid white;
+	border-left: 15px solid transparent;
+	border-top: 8px solid transparent;
+	text-decoration: none;
+	border-radius: 12px;
+	padding: 1px;
+	transition: all ease-in-out 0.5s;
 }
 
-a.Banner:link{
-		color: #FFFFFF;
-		text-decoration-style: solid;
-		text-decoration-line: none;
-		text-decoration-color: white;
-		background: linear-gradient(#A01A58,#892B64,#723C70,#5C4D7D,#455E89,#2E6F95,#0091AD,#0091AD); 
-		
-}
-a.Banner:hover{
 
-		color: black;
-		text-decoration-style: solid;
-		text-decoration-line: underline overline;
-		text-decoration-color: #73DBED;
-		background: #FFFFFF;  
-}
+.Banner a:hover{
+		color: beige; 
+		transition:  ease-in-out 0.5s ;
+		border-top:8px solid white;
+		border-bottom:8px solid transparent;
+		border-left: none;
+		border-right: 15px solid transparent;	
+	}
 
 /*En  la siguiente seccion son los estilos para la seccion Menu*/
 
 
-body.Menu{
+.Menu{
 	background: #1780A1;
 	text-align: center;
 }
 
-h1.Menu{
+.Menu h1{
 
 	background: linear-gradient(#3CA5FD,#73DBED);	
+	margin: auto;
+	padding: 12px;
+	border-radius: 10px;
+	width: 100%;
 }
 
-p.Menu{
+.Menu p{
 	font-size: 25px;
 	font-family: Verdana,Arial;
-	background: linear-gradient(#3CA5FD,#73DBED);
+	background-color: #0091AD;
+	text-align: center;
+	width: 100%;
+	margin-left: 10px;
+	box-shadow: 0px 0px 7px black;
+	border-radius: 12px;
+}
+.Menu a{
+	color: black;
+	text-decoration: none;
+	transition: all ease-in-out 0.5s;
 }
 
-a.Menu:link{
-
-	color: black;
-	background-color: #3CA5FD; 
-	text-decoration-line: none;
-
-}
-
-a.Menu:hover{
-
-	color: black;
-	text-decoration-style: solid;
-	text-decoration-line: underline overline;
-	text-decoration-color: #73DBED;
-	background: #FFFFFF;   
-
+.Menu a:hover{
+	color: white;
+	text-decoration: none;
 }
 
 /*En  la siguiente seccion son los estilos para la seccion museosCDMX */
